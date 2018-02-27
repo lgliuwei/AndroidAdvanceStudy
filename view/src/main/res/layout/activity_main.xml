@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.codingblock.view.MainActivity">
+
+    <Button
+        android:id="@+id/btn_myview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="MyView"/>
+
+
+    <Button
+        android:id="@+id/btn_canvas_study"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Canvas的使用"/>
+
+    <Button
+        android:id="@+id/btn_paint_study"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="drawText、Paint使用"/>
+
+    <Button
+        android:id="@+id/btn_dispatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="事件分发测试页面"/>
+
+    <Button
+        android:id="@+id/btn_debris_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="碎片遁形"/>
+
+    <Button
+        android:id="@+id/btn_start_scroll_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="滑动冲突"/>
+
+</LinearLayout>

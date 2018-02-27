@@ -1,0 +1,1 @@
+include ':app', ':testapp', ':view', ':libutils', ':optimize', ':handler', ':ipc', ':ipc_client', ':libaidl'

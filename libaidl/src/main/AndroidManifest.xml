@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="cn.codingblock.libaidl">
+
+    <!--声明权限-->
+    <uses-permission android:name="cn.codingblock.permission.ACCESS_CONTACT_MANAGER"/>
+    <!--定义权限-->
+    <permission
+        android:name="cn.codingblock.permission.ACCESS_CONTACT_MANAGER"
+        android:protectionLevel="normal"/>
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+
+    </application>
+
+</manifest>

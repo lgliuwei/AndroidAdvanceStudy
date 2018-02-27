@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.codingblock.androidadvancestudy.services.ServiceTestActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_start_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="start_service"/>
+
+            <Button
+                android:id="@+id/btn_bind_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="bind_service"/>
+
+            <Button
+                android:id="@+id/btn_unbind_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="unbind_service"/>
+
+            <Button
+                android:id="@+id/btn_stop_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="stop_service"/>
+
+            <Button
+                android:id="@+id/btn_service_stopself"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="service_stopself"/>
+
+            <Button
+                android:id="@+id/btn_start_servicetest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="启动Service_Test2_Activity"/>
+
+            <Button
+                android:id="@+id/btn_start_foreground_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="启动Foreground_Service"/>
+
+            <Button
+                android:id="@+id/btn_start_intent_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="启动Intent_Service"/>
+            <Button
+                android:id="@+id/btn_start_2_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="同时启动MyService、MyIntentService的耗时任务观察log"/>
+            <Button
+                android:id="@+id/btn_start_main_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="启动上面2个Service后再启动mainTask任务，观察log"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
