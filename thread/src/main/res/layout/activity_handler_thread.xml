@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.codingblock.async_task.AsyncTaskActivity">
+    tools:context="cn.codingblock.handler_thread.HandlerThreadActivity">
 
     <Button
-        android:id="@+id/btn_async_task"
+        android:id="@+id/btn_start_thread"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="AsyncTaskActivity"/>
+        android:text="启动两个子线程"/>
 
     <Button
-        android:id="@+id/btn_handler_thread"
+        android:id="@+id/btn_handler_thread_send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="HandlerThreadActivity"/>
+        android:text="向HandlerThread发送消息"/>
 
 </LinearLayout>
